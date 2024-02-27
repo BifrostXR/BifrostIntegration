@@ -38,7 +38,7 @@ Simply drag and drop the Unity package into your project assets.
 
 **3)** Set up Bindings
 SteamVR may or may not prompt you about **partial bindings**, ensure you select "Replace" instead of "Merge."
-If you are not prompted, please copy all the files in `Bifrost/SteamVR_Bifrost/1` to `Streaming Assets/SteamVR`
+If you are not prompted, please copy all the files in `Bifrost/SteamVR_Bifrost/1` to `Streaming Assets/SteamVR`. If there are already files there, delete them.
 To verify this was done correctly, check the Console. There should be no errors.
 
 **4)** Ready Your Device:
