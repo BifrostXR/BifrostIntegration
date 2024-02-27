@@ -34,24 +34,24 @@ _Note: This package is currently in beta._
 **1)** Install and Set Up the [Unity SteamVR Plugin](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647):
 
 **2)** Install **Bifrost Integration**.
-Simply drag and drop the Unity package into your project assets.
+- Simply drag and drop the Unity package into your project assets.
 
 **3)** Set up Bindings
-SteamVR may or may not prompt you about **partial bindings**, ensure you select "Replace" instead of "Merge."
+- SteamVR may or may not prompt you about **partial bindings**, ensure you select "Replace" instead of "Merge."
 If you are not prompted, please copy all the files in `Bifrost/SteamVR_Bifrost/1` to `Streaming Assets/SteamVR`. If there are already files there, delete them.
 To verify this was done correctly, check the Console. There should be no errors.
 
 **4)** Ready Your Device:
-Ensure your device is powered on and calibrated to your hand. Refer to the [calibration instructions](https://www.bifrostvr.com/pulse/driver).
+- Ensure your device is powered on and calibrated to your hand. Refer to the [calibration instructions](https://www.bifrostvr.com/pulse/driver).
 
 **6)** Load the Demo Scene:
-Open the Demo scene located at `Bifrost/scenes/Demo.unity`. This scene showcases various examples of haptics that can be simulated with Pulse.
+- Open the Demo scene located at `Bifrost/scenes/Demo.unity`. This scene showcases various examples of haptics that can be simulated with Pulse.
 
 **7)** Compile and Play:
-Compile your project and start playing. This action should automatically launch the SteamVR runtime and Bifrost UI.
+- Compile your project and start playing. This action should automatically launch the SteamVR runtime and Bifrost UI.
 
 8) Troubleshooting:
-	If you encounter any issues, follow these steps:
+- If you encounter any issues, follow these steps:
 
 	- Open the SteamVR Input window.
 	- Click "Open Binding UI."
@@ -67,8 +67,8 @@ Spatial feedback is designed for static objects within your virtual environment.
 
 **To implement:**
 
-Replace the default SteamVR Player hands with Hand_Bifrost in the prefabs folder. Thats it! 
-By default, spatial feedback will be enabled on all colliders. This can be changed in the layermask.
+- Replace the default SteamVR Player hands with Hand_Bifrost in the prefabs folder. Thats it! 
+- By default, spatial feedback will be enabled on all colliders. This can be changed in the layermask.
 
 **2)** Interactable Feedback:
 Interactable feedback is tailored for objects that can be grabbed or interacted with directly. When these objects are grabbed, each finger can be assigned a specific feedback type:
